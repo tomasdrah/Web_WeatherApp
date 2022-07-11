@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="/javascript/main.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="bg-1">
+<main class="trans-black-bg block">
+
+    <section>
+        <div class="container-fluid">
+            <h1 class="text-center ">Header</h1>
+            <form id="form_city_name">
+                <div class="row">
+                    <div class="col-2">
+                        <label for="form_city_name__city">City</label>
+                    </div>
+                    <div class="col-6">
+                        <input class="ui-input" id="form_city_name__city" type="text" placeholder="Write city"
+                               name="city">
+                    </div>
+                    <div class="col-2">
+                        <input type="submit" value="Search" onsubmit="">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+</body>
+
+</html>
+

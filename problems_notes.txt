@@ -1,0 +1,12 @@
+encountered problems:
+    webpack config
+        - path relations with assets
+        - can't handle complex html and sass
+    node-sass
+        - won't support @use
+        - outdated
+    pug
+        - no longer maintained
+        - can't process some staffs
+
+
