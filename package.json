@@ -4,16 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "javascript": "webpack --config compilations/webpack.config.javascript.js",
+    "javascript": "webpack --config compilations/webpack.config.js",
     "styles": "node compilations/sass.js",
     "handlebars": "node compilations/handlebars.js",
-    "server": "live-server --root dist --open=html/example.html",
-    "server_": "http-server dist -o"
+    "live_server": "live-server --root dist --open=html/example.html",
+    "http_server": "http-server dist -o",
+    "ts_node": "ts-node"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "typescript": "^4.7.4",
+    "ts-node": "^10.8.2",
     "live-server": "^1.2.2",
     "http-server": "^14.1.1",
     "handlebars": "^4.7.7",
@@ -26,9 +29,9 @@
     "webpack-bundle-analyzer": "^4.5.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.7.4",
-    "fs-extra": "^10.1.0"
+    "fs-extra": "^10.1.0",
+    "bootstrap": "^5.2.0-beta1"
   },
   "dependencies": {
-    "bootstrap": "^5.2.0-beta1"
   }
 }
